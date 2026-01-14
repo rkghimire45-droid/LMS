@@ -80,7 +80,7 @@ const CourseDetails = () => {
           </div>
           <p className="">
             Course by
-            <span className="text-blue-600 underline"> Srishti Mahara</span>
+            <span className="text-blue-600 underline"> David J Malan</span>
           </p>
           <div className="pt-8 text-gray-800">
             <h2 className="text-xl font-semibold">Course Structure</h2>

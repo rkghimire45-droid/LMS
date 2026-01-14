@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className='bg-gray-900 md:px-36 text-left w-full mt-10'>
       <div className='flex flex-col md:flex-row items-start px-8 md:px-0 justify-center gap-10 md:gap-32 py-10 border-b border-white/30'>
         <div className='flex flex-col md:items-start items-center w-full'>
-          <img src={assets.logo} alt="logo" className='h-15 w-22' />
+          <img src={assets.log} alt="logo" className='h-15 w-22 bg-amber-50' />
           <p className='mt-6 text-center md:text-left text-sm text-white/80'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
         </div>
         <div className='flex flex-col md:items-start items-center w-full'>
@@ -33,7 +33,9 @@ const Footer = () => {
 
     
       </div>
-      <p className='py-4 text-center text-xs md:text-sm text-white/60'>Copyright 2025 © Srishti-Beauty-Academy. All Right Reserved.</p>
+      {/* <p className='py-4 text-center text-xs md:text-sm text-white/60'>Copyright 2025 © Srishti-Beauty-Academy. All Right Reserved.</p> */}
+      <p className='py-4 text-center text-xs md:text-sm text-white/60'>Copyright 2025 © Xyz Accouting. All Right Reserved.</p>
+
     </footer>
   )
 }

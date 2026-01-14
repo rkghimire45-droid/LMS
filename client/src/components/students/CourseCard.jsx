@@ -15,7 +15,7 @@ const CourseCard = ({ course }) => {
 
       <div className="p-3 text-left">
         <h3 className="text-base font-semibold">{course.courseTitle}</h3>
-        <p className="text-gray-500">Srishti Mahara</p>
+        <p className="text-gray-500">David J Malan</p>
 
         <div className="flex items-center space-x-2">
           <p className="">{calculateRating(course)}</p>
